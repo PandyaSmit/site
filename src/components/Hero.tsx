@@ -1,4 +1,5 @@
 import { Terminal, MapPin } from 'lucide-react';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -29,9 +30,16 @@ const Hero = () => {
         <div className="tech-mandala">
           <div className="circle outer"></div>
           <div className="circle middle"></div>
-          <div className="circle inner"></div>
-          <div className="crosshair vertical"></div>
-          <div className="crosshair horizontal"></div>
+          <div className="circle inner">
+            <Image 
+              src="/smit_image.jpg" 
+              alt="Smit Pandya" 
+              width={160} 
+              height={160} 
+              className="mandala-image" 
+              priority
+            />
+          </div>
         </div>
       </div>
     </section>

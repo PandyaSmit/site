@@ -37,10 +37,10 @@ const Projects = () => {
               <div className="folder-icon">
                 <Folder size={40} />
               </div>
-              <div className="project-links">
+              {/* <div className="project-links">
                 <a href={project.github} aria-label="GitHub Link"><FaGithub size={20} /></a>
                 <a href={project.external} aria-label="External Link"><ExternalLink size={20} /></a>
-              </div>
+              </div> */}
             </div>
             
             <h3 className="project-title">{project.title}</h3>

@@ -15,7 +15,6 @@ const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
       <div className="container nav-content">
         <a href="#" className="nav-logo mono" aria-label="Home">
           <Logo />
-          <span className="logo-text">SmitPandya</span>
         </a>
 
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>

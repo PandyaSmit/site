@@ -1,6 +1,6 @@
 # Smit Pandya - Cloud Developer Portfolio
 
-Welcome to the personal portfolio of **Smit Pandya**, Cloud Developer at Trelleborg India Pvt Ltd. 
+Welcome to the personal portfolio of **Smit Pandya**.
 
 This project showcases a premium, tech-focused design with custom animations, unique SVGs, and a fully responsive layout.
 
